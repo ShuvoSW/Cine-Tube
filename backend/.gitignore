@@ -6,3 +6,5 @@ dist
 .vscode
 /src/generated/prisma
 
+ 
+/generated/prisma
