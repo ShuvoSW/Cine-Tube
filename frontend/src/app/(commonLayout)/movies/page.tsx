@@ -14,7 +14,7 @@ export default function MoviesPage() {
     limit: 10,
   });
 
-  // Filter only movies
+  // Filter movies
   const movies = data.filter((item: any) => item.type === "Movie");
 
   return (
